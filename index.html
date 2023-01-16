@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>C4G Application</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- drag and drop field -->
+		<hr>
+		<div id="drop-area">
+			Drag and drop your Excel file here.
+		</div>
+		<output id="list"></output>
+		<hr>
+
+		<!-- months form -->
+		<div id="options">
+			<h1>Choose your options:</h1>
+			<div id="months-options">
+				<h2 id="months-title">Months</h2>
+				<form id="months-form">
+					<div id="left-months">
+						<input type="checkbox" id="January">January<br>
+						<input type="checkbox" id="February">February<br>
+						<input type="checkbox" id="March">March<br>
+						<input type="checkbox" id="April">April<br>
+						<input type="checkbox" id="May">May<br>
+						<input type="checkbox" id="June">June
+					</div>
+					<div id="right-months">
+						<input type="checkbox" id="July">July<br>
+						<input type="checkbox" id="August">August<br>
+						<input type="checkbox" id="September">September<br>
+						<input type="checkbox" id="October">October<br>
+						<input type="checkbox" id="November">November<br>
+						<input type="checkbox" id="December">December
+					</div>
+				</form>
+			</div>
+
+		<!-- custom date range options -->
+		<div id="custom-date-range-options">
+			<h2>Custom Range</h2>
+			<div id="custom-range-form-div">
+				<form id="custom-range-form">
+					<div id="start-date">
+						<h3>Start Date</h3>
+						<input id="start-calendar" type="date">
+					</div>
+					<div id="end-date">
+						<h3>End Date</h3>
+						<input id="end-calendar" type="date">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- missed call rule -->
+		<div id="missed-call-rule-options">
+			<h2>Missed Call Rule</h2>
+			<form id="missed-call-rule-form">
+				<input id="missed-call-rule" type="number" name="rule-length" min="1" max="120">
+			</div>
+		</div>
+
+		<!-- submit button -->
+		<div class="newdiv right-align">
+			<a id="submit-btn">Generate Report</a>
+		</div>
+
+		<!-- this is where the initial information of the analysis will go -->
+		<div id="initial-info"></div>
+
+		<!-- this where the year-level visualization will go -->
+		<svg id="svg-year-level" width="0" height="0"></svg>
+
+		<!-- this is where the month-level visualization will go -->
+		<svg id="svg-month-level" width="0" height="0"></svg>
+
+		<!-- this is where the day-level visualization will go -->
+		<svg id="svg-day-level" width="0" height="0"></svg>
+
+		<!-- this is where the hour-level visualization will go -->
+		<svg id="svg-hour-level" width="0" heigth="0"></svg>
+
+		<!-- jszip library -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+		<!-- xlsx js library -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.9.8/xlsx.full.min.js"></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<!-- d3.js -->
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<!-- external js -->
+		<script type="text/javascript" src="js/data-analyzer.js"></script>
+		<script type="text/javascript" src="js/data-visualizer.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

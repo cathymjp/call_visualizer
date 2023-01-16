@@ -1,0 +1,112 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: white;
+	margin: 3em;
+}
+
+h1 { 
+	text-indent: 5%; 
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	border-top: 4px #bc0033;
+	border-style: dotted;
+	margin: 1em 0;
+	padding: 0;
+}
+
+#drop-area {
+	width: auto;
+	height: 200px;
+	line-height: 200px;
+	background-color: #bc0033;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+#options h1 {
+	text-indent: 0%;
+}
+
+#options div {
+	float: left;
+}
+
+#months-options {
+	width: 30%;
+}
+
+#months-title {
+	padding-left: 25%;
+	padding-right: 75%;
+}
+
+#months-form {
+	text-align: left;
+}
+
+#left-months, #right-months {
+	width: 50%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+
+#months-options, #custom-date-range-options, #missed-call-rule-options {
+	width: 33.33%;
+}
+
+#custom-date-range-options {
+	text-align: center;
+}
+
+#custom-range-form-div {
+	position: relative;
+	padding-left: 18%;
+}
+
+#missed-call-rule-options {
+	text-align: center;
+}
+
+#start-date {
+	margin-right: 20px
+}
+
+.newdiv { clear: both; }
+
+.right-align { text-align: right; }
+
+#submit-btn {
+	color: white;
+	background-color: #bc0033;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#submit-btn:active {
+	background-color: white;
+	color: #bc0033;
+}
+
+/* Visualization styling */
+
+.made-call-bar {
+	fill: forestgreen;
+}
+
+.missed-call-bar {
+	fill: #e21425;
+}
+
+.selected-made-call-bar {
+	fill: lightgreen;
+}
+
+.selected-missed-call-bar {
+	fill: lightcoral;
+}
