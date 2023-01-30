@@ -7,25 +7,19 @@
 - [Illustration](#illustration)
 
 ## About 
-Title (Brief project description 2-3 sentences): Visual data analyzer for phone calls
-1. 프로젝트 제목/주제
-✔ 프로젝트명
-✔ 어떤 프로젝트인지 소개
-✔ 디렉토리 구조
-Introduction - the project's aim
-2. 제작 기간 & 참여 인원 2017.2 ~ 2017.5 (3 months) / 3 Students
-4. 사용한 기술 (기술 스택) - HTML / CSS
+Visual data analyzer for phone calls Title (Brief project description 2-3 sentences): 
+- 2017.2 ~ 2017.5 (3 months) / 3 Students
+- Role: FE (HTML / CSS)
+- Introduced in school news magazine
 
 ## Description
-Write about 1-2 paragraphs describing the purpose of your project.
-What your application does, why you used the technologies you used,
-Some of the challenges you faced and features you hope to implement in the future.
+1-2 paragraphs describing the purpose of your project.</br>
+:small_orange_diamond: Our project analyzes phone call data stored in an Excel file in months/days/hours of how many calls were received and how many calls were or were not received by the organization.
 
 
-Technologies
 
 ## Illustration
-Scope of functionalities 
-프로젝트 결과물
-✔ 기능별 사진 / 영상
 
+![image](https://user-images.githubusercontent.com/45842934/215477711-efedd523-7627-4cd0-abd6-49eb251696b8.png)
+
+Visualize the number of calls and missed calls by analyzing phone data by month, day, and hour
