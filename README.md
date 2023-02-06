@@ -13,7 +13,7 @@ Visual data analyzer for phone calls
 - Introduced in school news magazine
 
 ## Description
-:small_orange_diamond: Analyze phone call data stored in an Excel file by **year**/**month**/**day**/**hour** for received and unanswered calls by the organization. This is to help improve service and minimize missed calles by mobilizing volunteers in a timely manner.
+:small_orange_diamond: Analyze phone call data stored in Excel files for calls received and unanswered by the organization by **year**/**month**/**day**/**hour**. This is to mobilize volunteers in a timely manner to improve service and minimize missed calls.
 <br/>
 
 
@@ -21,4 +21,4 @@ Visual data analyzer for phone calls
 
 <img src="https://user-images.githubusercontent.com/45842934/215477711-efedd523-7627-4cd0-abd6-49eb251696b8.png" height="320" />
 
-   └> Click on the bar graph of interest to view more detailed information.
+   └> Users can click on the bar graph of interest to view more detailed information.
